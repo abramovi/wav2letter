@@ -46,8 +46,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     os.system(
-        "python3 {}../../../data/librispeech/prepare.py --dst {} -p {}".format(
-            os.path.dirname(os.path.abspath(__file__)), args.data_dst, args.process
+        "python3 /cnvrg/recipes/data/librispeech/prepare.py --dst {} -p {}".format(
+             args.data_dst, args.process
         )
     )
 
